@@ -124,7 +124,7 @@ const EVENT_DATE = new Date(2026, 10, 13, 18, 0, 0);
 // city-level anchor rather than a single address.
 const CITY = "Atlanta, GA";
 
-const NOW_PLAYING_TRACK = "The Marias – No One Noticed (Extended English)";
+const NOW_PLAYING_TRACK = "Jay Park - All I Wanna Do (K) (Feat. Hoody & Loco)";
 
 function crc32(bytes) {
   let crc = ~0;
@@ -1998,7 +1998,7 @@ function TicketCard({ going = 0, docked = false, expanded = false }) {
               <img src="/us.png" alt="Benji Balls" onError={() => setPhotoMissing(true)} />
               <div className="ticket-photo-caption">
                 Benji Balls
-                <div className="ticket-photo-subcaption">"guess where this was taken"</div>
+                <div className="ticket-photo-subcaption">"wouldjya?"</div>
               </div>
             </>
           )}
