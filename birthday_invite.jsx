@@ -374,6 +374,12 @@ export default function BirthdayInvite() {
     setStage("claimed");
     setBootFading(true);
     setTimeout(() => setBooting(false), BOOT_FADE_MS);
+    // "landed" never happens on this path, so kick off playback here instead —
+    // still fine as a user gesture, since this runs from the skip button's onClick
+    audioRef.current
+      ?.play()
+      .then(showNowPlayingToast)
+      .catch(() => {});
   }
 
   function printTicket() {
