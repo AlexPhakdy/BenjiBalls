@@ -124,7 +124,7 @@ const EVENT_DATE = new Date(2026, 10, 13, 18, 0, 0);
 // city-level anchor rather than a single address.
 const CITY = "Atlanta, GA";
 
-const NOW_PLAYING_TRACK = "Jay Park - All I Wanna Do (K) (Feat. Hoody & Loco)";
+const NOW_PLAYING_TRACK = "Jay Park - Yacht (K) [feat. Sik-K]";
 
 function crc32(bytes) {
   let crc = ~0;
